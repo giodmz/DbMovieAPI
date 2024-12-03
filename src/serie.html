@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes da Série</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LOGOTIPO</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="explorer.html">Explorador</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <h2>Detalhes da Série</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="..." class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-8">
+                <h4>Nome da Série</h4>
+                <p>Descrição completa da série...</p>
+                <p>Plataforma: ...</p>
+                <button class="btn btn-primary">Adicionar às Minhas Séries</button>
+            </div>
+        </div>
+
+        <h4 class="my-4">Elenco</h4>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ator 1</h5>
+                        <p class="card-text">Personagem 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="my-4">Temporadas e Episódios</h4>
+        <div class="accordion" id="accordionTemporadas">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Temporada 1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Episódio 1: Descrição do episódio...</li>
+                            <li>Episódio 2: Descrição do episódio...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

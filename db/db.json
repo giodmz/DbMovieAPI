@@ -1,0 +1,20 @@
+{
+  "series": [
+    {
+      "id": 1,
+      "name": "Breaking Bad",
+      "genre": "Drama"
+    },
+    {
+      "id": 2,
+      "name": "Stranger Things",
+      "genre": "Sci-Fi"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "name": "The Office"
+    }
+  ]
+}

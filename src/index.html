@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Séries</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOGOTIPO</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="explorer.html">Explorador</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container my-4">
+        <h2>Séries Populares</h2>
+        <div id="carouselSeriesPopulares" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carousel-content">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeriesPopulares" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSeriesPopulares" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próxima</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+   
+    <div class="container my-4">
+        <h2>Novas Séries</h2>
+        <div id="novas-series" class="row row-cols-1 row-cols-md-3 g-4">
+        </div>
+        <div id="novas-series" class="row row-cols-2 row-cols-md-3 g-4">
+        </div>
+        
+      
+        
+    </div>
+
+    
+    <div class="container my-4">
+        <h2>Informações do(a) Aluno(a)</h2>
+        <p>Giovane Damazio</p>
+        <div>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2>Minhas Séries</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <a href="serie.html">
+                        <img src="/img/107200g.jpg" class="card-img-top" alt="Série Favorita 1">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Série Favorita 1</h5>
+                        <p class="card-text">Descrição da série.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a href="serie.html">
+                        <img src="/img/107200g.jpg" class="card-img-top" alt="Série Favorita 2">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Série Favorita 2</h5>
+                        <p class="card-text">Descrição da série.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

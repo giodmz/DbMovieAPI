@@ -1,0 +1,84 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: #353535;
+}
+
+h2 {
+    color: #343a40;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    max-height: 20rem;
+    object-fit: cover;
+    width: 50rem;
+    position: relative;
+}
+
+form h4 {
+    color: #343a40;
+}
+
+.form-check-label {
+    color: #6c757d;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+#filterForm {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #seriesResults .card {
+    margin-bottom: 20px;
+  }
+  

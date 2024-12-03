@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador</title>
+    <link rel="stylesheet" href="/css/explorer.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <a href="/src/index.html"> <img src="logo.png" alt="Logotipo">
+            </a>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisa ...">
+                <button>
+                    🔍
+                </button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <section class="filters">
+                <h3>Filtros de pesquisa</h3>
+
+                <div class="filter-category">
+                    <input type="checkbox" id="genre" class="filter-checkbox">
+                    <label for="genre" class="filter-label">Gênero</label>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> Ação</label>
+                        <label><input type="checkbox"> Drama</label>
+                        <label><input type="checkbox"> Comédia</label>
+                        <label><input type="checkbox"> Terror</label>
+                    </div>
+                </div>
+
+                <div class="filter-category">
+                    <input type="checkbox" id="age" class="filter-checkbox">
+                    <label for="age" class="filter-label">Faixa Etária</label>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> Livre</label>
+                        <label><input type="checkbox"> 12+</label>
+                        <label><input type="checkbox"> 16+</label>
+                        <label><input type="checkbox"> 18+</label>
+                    </div>
+                </div>
+
+                <div class="filter-category">
+                    <input type="checkbox" id="release-year" class="filter-checkbox">
+                    <label for="release-year" class="filter-label">Lançamento</label>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> Essa semana</label>
+                        <label><input type="checkbox"> Esse mês</label>
+                        <label><input type="checkbox"> Esse ano</label>
+                        <label><input type="checkbox"> Todos</label>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="content">
+                <div class="card">
+                    <img src="/img/107200g.jpg" alt="Série 1">
+                    <h4>Série 1</h4>
+                    <p>Descrição da série.</p>
+                </div>
+                <div class="card">
+                    <img src="serie2.jpg" alt="Série 2">
+                    <h4>Série 2</h4>
+                    <p>Descrição da série.</p>
+                </div>
+                <div class="card">
+                    <img src="serie3.jpg" alt="Série 3">
+                    <h4>Série 3</h4>
+                    <p>Descrição da série.</p>
+                </div>
+                <div class="card">
+                    <img src="serie4.jpg" alt="Série 4">
+                    <h4>Série 4</h4>
+                    <p>Descrição da série.</p>
+                </div>
+                <div class="card">
+                    <img src="serie5.jpg" alt="Série 5">
+                    <h4>Série 5</h4>
+                    <p>Descrição da série.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
